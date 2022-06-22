@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.bg {
+  background-image: url("../img/annie-spratt-R3LcfTvcGWY-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  height: 88vh;
+}
+
+/* .main-header{
+
+} */
+
+.txt-center {
+  text-align: center;
+}
+
+#logo {
+  min-width: 236px;
+  margin-left: 13px;
+  text-align: center;
+}
+
+#logo h1 {
+  border-right: 1px solid rgba(128, 128, 128, 0.705);
+}
+
+#logo h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-nav {
+  display: flex;
+  height: 76px;
+  width: 100%;
+  align-items: center;
+}
+
+#menu ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#menu ul li {
+  /* width: 15%; */
+  padding: 12px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.btnContainer {
+  display: flex;
+  min-width: 40%;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+#firstsection {
+  height: 66vh;
+  color: white;
+  /* margin-top: 12px; */
+  padding: 4px 87px;
+  font-size: 1.8rem;
+}
