@@ -10,16 +10,33 @@ body {
 }
 
 .bg {
-  background-image: url("../img/annie-spratt-R3LcfTvcGWY-unsplash.jpg");
+  background-image: url("../img/xuan-nguyen-g9g2JC4CzdA-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: darken;
-  height: 88vh;
+  height: 90vh;
 }
 
-/* .main-header{
+#main-header {
+  position: sticky;
+  top: 0;
+  transition: all 0.4s ease-in-out;
+}
 
-} */
+.scrolling-active {
+  background-color: white;
+  border-bottom: 1px solid black;
+  box-shadow: 2px 2px 2px;
+  color: black;
+}
+
+.scrolling-active #menu a {
+  color: black;
+}
+
+.nav-scroll-clr-change h1 a {
+  color: black !important;
+}
 
 .txt-center {
   text-align: center;
