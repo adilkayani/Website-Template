@@ -1,4 +1,16 @@
 @media only screen and (max-width: 896px) {
+  .resp-logo {
+    display: inline !important;
+    border-right: 1px solid rgba(255, 0, 0, 0.776);
+    width: 220px;
+  }
+
+  .resp-logo a {
+    text-decoration: none;
+    font-family: "Ubuntu", "Baloo 2", sans-serif, cursive;
+    color: white;
+  }
+
   #home {
     padding: 2px 24px !important;
     font-size: 1.4rem !important;
@@ -47,8 +59,14 @@
     flex-direction: column;
   }
 
+  /* Utility Classes */
+
   .visible {
     visibility: visible !important;
+  }
+
+  .ds-none {
+    display: none !important;
   }
 
   .resp-mt1 {
