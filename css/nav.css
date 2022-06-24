@@ -45,6 +45,10 @@
   color: black !important;
 }
 
+.scrolling-active #burger .line {
+  background-color: black;
+}
+
 .txt-center {
   text-align: center;
 }
@@ -103,7 +107,36 @@
 
 .btnContainer {
   display: flex;
-  min-width: 40%;
+  min-width: 32%;
   justify-content: flex-end;
   margin-left: auto;
+}
+
+#burger {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.line {
+  margin: 0, auto;
+  margin-top: 10px;
+  width: 80%;
+  height: 2px;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.resp-logo {
+  position: absolute;
+  left: 23px;
+  top: 19px;
+  font-size: 1.5rem;
+  z-index: 3;
+  display: none;
+  cursor: pointer;
 }

@@ -1,0 +1,123 @@
+@media only screen and (max-width: 896px) {
+  .resp-logo {
+    display: inline !important;
+    border-right: 1px solid rgba(255, 0, 0, 0.776);
+    width: 220px;
+  }
+
+  .resp-logo a {
+    text-decoration: none;
+    font-family: "Ubuntu", "Baloo 2", sans-serif, cursive;
+    color: white;
+  }
+
+  #home {
+    padding: 2px 24px !important;
+    font-size: 1.4rem !important;
+  }
+
+  #burger {
+    visibility: visible !important;
+  }
+
+  #main-nav {
+    flex-direction: column;
+  }
+
+  .main-nav-resp {
+    height: 292px !important;
+  }
+
+  #main-nav h1 {
+    display: none;
+  }
+
+  #main-nav ul {
+    margin-top: 28px;
+    flex-direction: column !important;
+    visibility: hidden;
+  }
+
+  .btnContainer {
+    margin: 0 auto;
+    justify-content: center !important;
+    align-items: center;
+    visibility: hidden;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .boxes {
+    margin-top: 34px;
+    padding: 0 23px;
+    width: 90% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* Utility Classes */
+
+  .visible {
+    visibility: visible !important;
+  }
+
+  .ds-none {
+    display: none !important;
+  }
+
+  .resp-mt1 {
+    margin-top: 8px;
+  }
+  .resp-mt2 {
+    margin-top: 10px;
+  }
+  .resp-mt3 {
+    margin-top: 14px;
+  }
+  .resp-mt4 {
+    margin-top: 16px;
+  }
+
+  .resp-ml1 {
+    margin-left: 8px;
+  }
+  .resp-ml2 {
+    margin-left: 10px;
+  }
+  .resp-ml3 {
+    margin-left: 14px;
+  }
+  .resp-ml4 {
+    margin-left: 16px;
+  }
+
+  .resp-mb1 {
+    margin-bottom: 8px;
+  }
+  .resp-mb2 {
+    margin-bottom: 10px;
+  }
+  .resp-mb3 {
+    margin-bottom: 14px;
+  }
+  .resp-mb4 {
+    margin-bottom: 16px;
+  }
+
+  .resp-mr1 {
+    margin-right: 8px;
+  }
+  .resp-mr2 {
+    margin-right: 10px;
+  }
+  .resp-mr3 {
+    margin-right: 14px;
+  }
+  .resp-mr4 {
+    margin-right: 16px;
+  }
+}
