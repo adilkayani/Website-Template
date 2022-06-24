@@ -1,6 +1,7 @@
 #main-header {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 #main-nav {
@@ -11,6 +12,7 @@
   position: relative;
   border-bottom: 1px solid #ff000091;
   transition: all 0.4s ease-in-out;
+  z-index: 1;
 }
 
 #main-nav ::before {

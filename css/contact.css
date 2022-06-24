@@ -1,0 +1,36 @@
+#main-contact {
+  min-height: 673px;
+  background-color: #f0ffffba;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
+.contact-us {
+  width: 100%;
+  height: 100%;
+}
+
+#main-contact h1 {
+  top: 23px;
+  position: absolute;
+  font-size: 1.9rem;
+}
+
+.contact-us form {
+  margin: 0 auto;
+  width: 88%;
+  height: 100%;
+}
+
+.contact-us form input {
+  margin-bottom: 12px;
+  padding: 12px;
+  width: 100%;
+  height: 12%;
+  font-size: 1.2rem;
+}
