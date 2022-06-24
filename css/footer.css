@@ -1,19 +1,21 @@
-#home {
-  height: 527px;
-  color: white;
-  padding: 4px 87px;
-  font-size: 1.9rem;
+#main-footer {
+  height: 122px;
+  width: 100%;
 }
 
-#home ::before {
+/* .containerFooter {
+  height: 122px;
+  width: 100%;
+  position: relative;
+} */
+
+/* .containerFooter ::before {
   content: "";
   background: url("../img/lidye-1Shk_PkNkNw-unsplash.jpg") no-repeat center
     center/cover;
   opacity: 0.6;
   position: absolute;
-  height: 600px;
-  width: 100%;
   top: 0;
   left: 0%;
   z-index: -1;
-}
+} */
