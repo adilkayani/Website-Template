@@ -5,3 +5,4 @@ window.addEventListener("scroll", () => {
   navbar.classList.toggle("scrolling-active", windowPosition);
   logo.classList.toggle("nav-scroll-clr-change", windowPosition);
 });
+
